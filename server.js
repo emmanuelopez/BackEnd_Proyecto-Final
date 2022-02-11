@@ -45,4 +45,4 @@ io.on("connection", (socket) => {  // connection no se puede modificar, va ese v
 
 // El servidor funcionando en el puerto 8080
 const PORT = process.env.PORT || 8080  // en caso que no existe 8080 toma el primero libre
-httpServer.listen(PORT, () => console.log('Servidor funcionando en puerto ${PORT}'));
+httpServer.listen(PORT, () => console.log('Servidor funcionando en puerto:', PORT));
