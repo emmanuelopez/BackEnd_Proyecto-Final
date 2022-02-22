@@ -2,7 +2,7 @@ const express = require("express");
 const { sendFile } = require("express/lib/response");
 const router = express.Router();
 
-const Producto = require("../modules/clase_producto"); //importo la clase Producto
+const Producto = require('../modules/clase_producto'); //importo la clase Producto
 const producto = new Producto();
 
 //GET '/api/productos' -> devuelve todos los productos

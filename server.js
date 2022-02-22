@@ -24,7 +24,7 @@ const producto = new Producto();
 let listaProductos = producto.getProductos();
 
 //abro conexion del lado del servidor
-io.on("connection", (socket) => {  // connection no se puede modificar, va ese valor.
+io.on("connection", (socket) => {
     // "connection" se ejecuta la primera vez que se abre una nueva conexión
     console.log('Usuario conectado')
     //envio datos al cliente (desde servidor)
